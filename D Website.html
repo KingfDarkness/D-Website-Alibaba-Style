@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>d Marketplace - Full Pages</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--primary:#000000;--dark:#0f1724;--muted:#6b7280;--card:#fff;--bg:#f7fafc;font-family:'Inter',sans-serif;}
+*{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--dark);} header,footer{background:#fff;border-bottom:1px solid #eee;} .container{max-width:1200px;margin:0 auto;padding:18px}
+nav a{margin-right:16px;text-decoration:none;color:var(--dark);font-weight:600}
+.btn{padding:10px 14px;border-radius:8px;border:0;background:var(--primary);color:#fff;font-weight:600;cursor:pointer}.ghost{background:transparent;color:var(--dark);border:1px solid #e6e6e6}
+.grid{display:grid;gap:14px}.grid-4{grid-template-columns:repeat(4,1fr)}.grid-3{grid-template-columns:repeat(3,1fr)}.grid-2{grid-template-columns:repeat(2,1fr)}
+.card{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 8px 24px rgba(12,14,20,0.04)}
+.card img{width:100%;height:150px;object-fit:cover;border-radius:6px}
+.card h4{margin:10px 0 6px;font-size:16px}.price{color:var(--primary);font-weight:700}.meta{color:var(--muted);font-size:13px}
+@media (max-width:1000px){.grid-4{grid-template-columns:repeat(2,1fr)}} @media (max-width:600px){.grid-4,.grid-3{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<!-- ================= Header ================= -->
+<header>
+<div class="container" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap">
+<div style="display:flex;align-items:center;gap:12px"><div style="width:44px;height:44px;background:var(--primary);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;border-radius:8px">d</div><div><div style="font-weight:700">d</div><div style="font-size:12px;color:var(--muted)">Global B2B Marketplace</div></div></div>
+<nav><a href="#home">Home</a><a href="#products">Products</a><a href="#suppliers">Suppliers</a><a href="#checkout">Checkout</a></nav>
+<div><button class="ghost">Sign in</button> <button class="btn">Get Started</button></div>
+</div>
+</header>
+
+<!-- ================= Home Page ================= -->
+<section id="home" class="container" style="padding:28px 0">
+         <h1>Welcome to d Marketplace</h1>
+          <p style="color:var(--muted)">  Millions of products from verified suppliers worldwide.</p>
+</section>
+
+<!-- ================= Products Page ================= -->
+<section id="products" class="container" style="padding:28px 0">
+<h2>Products</h2>
+<div class="grid grid-4">
+<article class="card"><img src="https://picsum.photos/seed/p1/600/400" alt="product"><h4>Smartphone X</h4><div class="meta">Shenzhen Tech</div><div class="price">US $120</div></article>
+<article class="card"><img src="https://picsum.photos/seed/p2/600/400" alt="product"><h4>Cotton Fabric</h4><div class="meta">Global Textiles</div><div class="price">US $1.20 / m</div></article>
+<article class="card"><img src="https://picsum.photos/seed/p3/600/400" alt="product"><h4>LED Panel</h4><div class="meta">BrightLight Co.</div><div class="price">US $18</div></article>
+<article class="card"><img src="https://picsum.photos/seed/p4/600/400" alt="product"><h4>Car Door Handle</h4><div class="meta">AutoParts Inc.</div><div class="price">US $4.50</div></article>
+</div>
+</section>
+
+<section id="products" class="container" style="padding:28px 0">
+  <h2>Products</h2>
+  <div class="grid grid‑4">
+    <article class="card">
+      <img src="https://picsum.photos/seed/prodA/600/400" alt="product A">
+      <h4>Smartphone Model A</h4>
+      <div class="meta">Supplier: Shenzhen Tech Co.</div>
+      <div class="price">US $120</div>
+      <p style="margin-top:8px;color:var(--muted);font-size:14px;">
+        6.5″ AMOLED, 128 GB storage, 5000 mAh battery. MOQ: 100 units. Shipping: FOB Shenzhen.
+      </p>
+      <button class="ghost">Contact Supplier</button>
+    </article>
+
+    <article class="card">
+      <img src="https://picsum.photos/seed/prodB/600/400" alt="product B">
+      <h4>Cotton Fabric Roll</h4>
+      <div class="meta">Supplier: Global Textiles Ltd.</div>
+      <div class="price">US $1.20 / m</div>
+      <p style="margin-top:8px;color:var(--muted);font-size:14px;">
+        100% organic cotton, width 1.5 m, weight 180g/m². Available colours: white, grey, navy. MOQ: 500 m.
+      </p>
+      <button class="ghost">Contact Supplier</button>
+    </article>
+
+    <!-- আরও পণ্য… -->
+  </div>
+</section>
+
+
+<!-- ================= Supplier Profile Page ================= -->
+<section id="suppliers" class="container" style="padding:28px 0">
+<h2>Supplier Profile</h2>
+<div style="display:flex;gap:20px;flex-wrap:wrap">
+<div style="flex:1;min-width:220px;background:#fff;padding:14px;border-radius:10px;box-shadow:0 8px 24px rgba(12,14,20,0.04)">
+<h3>Shenzhen Tech</h3>
+<p style="color:var(--muted)">Verified supplier with 10+ years experience in electronics.</p>
+<p><strong>Products:</strong> Smartphones, Tablets, Accessories</p>
+<p><strong>Rating:</strong> ⭐⭐⭐⭐⭐ (120 reviews)</p>
+<button class="btn">Contact Supplier</button>
+</div>
+<div style="flex:2;min-width:300px;background:#fff;padding:14px;border-radius:10px;box-shadow:0 8px 24px rgba(12,14,20,0.04)">
+<h4>Latest Products</h4>
+<div class="grid grid-3">
+<article class="card"><img src="https://picsum.photos/seed/s1/600/400" alt="product"><h4>Smartphone Y</h4><div class="price">US $130</div></article>
+<article class="card"><img src="https://picsum.photos/seed/s2/600/400" alt="product"><h4>Wireless Earbuds</h4><div class="price">US $35</div></article>
+<article class="card"><img src="https://picsum.photos/seed/s3/600/400" alt="product"><h4>Tablet Z</h4><div class="price">US $220</div></article>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ================= Checkout Page ================= -->
+<section id="checkout" class="container" style="padding:28px 0">
+<h2>Checkout</h2>
+<div style="display:flex;gap:20px;flex-wrap:wrap">
+<div style="flex:1;min-width:220px;background:#fff;padding:14px;border-radius:10px;box-shadow:0 8px 24px rgba(12,14,20,0.04)">
+<h4>Order Summary</h4>
+<ul style="padding-left:16px">
+<li>Smartphone X - US $120</li>
+<li>Cotton Fabric - US $12 (10m)</li>
+<li>LED Panel - US $18</li>
+<li><strong>Total:</strong> US $150</li>
+</ul>
+</div>
+<div style="flex:1;min-width:220px;background:#fff;padding:14px;border-radius:10px;box-shadow:0 8px 24px rgba(12,14,20,0.04)">
+<h4>Payment</h4>
+<p>Name on Card</p>
+<input type="text" placeholder="John Doe" style="width:100%;padding:8px;margin-bottom:10px">
+<p>Card Number</p>
+<input type="text" placeholder="1234 5678 9012 3456" style="width:100%;padding:8px;margin-bottom:10px">
+<p>Expiry</p>
+<input type="text" placeholder="MM/YY" style="width:45%;padding:8px;margin-right:10px">
+<p>CVC</p>
+<input type="text" placeholder="123" style="width:45%;padding:8px">
+<button class="btn" style="margin-top:12px;width:100%">Pay Now</button>
+</div>
+</div>
+</section>
+<!-- ================= Footer ================= -->
+<footer>
+<div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap">
+<div><div style="font-weight:700">d</div><div style="color:var(--muted);font-size:13px">© d Marketplace — Global Trade</div></div>
+<div style="color:var(--muted);font-size:13px">Privacy · Terms · Help</div>
+</div>
+</footer>
+
+</body>
+</html>
